@@ -48,7 +48,7 @@ firefox doc/documentation.html`
 - type in the terminal at the root dir of this project: `mix docs`
 - `html doc` is generated in `doc` folder
 
-## How to add a new file to the documentation
+## How to add a new file to the documentation and generated html doc
 
 - Create a markdown file in `md\[category]` folder.
 - There is 5 `[category]` folders:
@@ -64,7 +64,7 @@ firefox doc/documentation.html`
 "md/[category]/[name-of-your-file].md": [ title: "Title your want in the menu"]
 ```
 - save and run `mix docs`
-- html file are updated in `doc` folder. Copy to your webfolder.
+- **html files** are generated/updated in `doc` folder. Copy the content of this folder to the website\documentation
 
 - index is called documentation.md in md directory
 
@@ -73,6 +73,8 @@ firefox doc/documentation.html`
 ## version
 
 - started 13022021  
+
+- upgrade to version 1.6 in mix.exs
 
 
 
